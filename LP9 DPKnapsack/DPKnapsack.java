@@ -31,7 +31,7 @@ public class DPKnapsack {
         {   
             if(v[n][m]!=v[n-1][m])
             {
-                System.out.print(n+"  ");m=m-w[n];n--;
+                System.out.print(n+"  ");
                 m=m-w[n];
             }
             n--;
